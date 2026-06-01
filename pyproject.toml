@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axi_ap"
+version = "0.1.0"
+description = "Axisymmetric aperture library"
+readme = "Readme.md"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipython",
+    "pytest",
+    "jupyter",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
