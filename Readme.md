@@ -67,5 +67,3 @@ Then run the desired example script from the same folder.
 ## Notes
 
 This GitHub repository was created in support of the publication associated with placeholder DOI: `PLACEHOLDER_DOI`.
-
-Replace `PLACEHOLDER_DOI` with the final DOI once it is available.
